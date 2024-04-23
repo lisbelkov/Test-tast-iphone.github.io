@@ -1,0 +1,25 @@
+{
+  "title": {
+    "Get Unlimited <br>Access": "Get Unlimited Access",
+    "Unlimited Art <br>Creation": "Unlimited Art Creation",
+    "Exclusive <br>Styles": "Exclusive Styles",
+    "Magic Avatars <br>With 20% Off": "Magic Avatars With 20% Off",
+    "YEARLY ACCESS": "YEARLY ACCESS",
+    "BEST OFFER": "BEST OFFER",
+    "Just {{price}} per year": "Just price per year",
+    "WEEKLY ACCESS": "WEEKLY ACCESS",
+    "{{price}} <br>per week": "price per week",
+    "Terms of Use": "Terms of Use",
+    "Privacy Policy": "Privacy Policy",
+    "Restore": "Restore",
+    "Continue": "Continue"
+},
+  "form": {
+    "email": "email",
+    "password": "password",
+    "login": "login"
+  },
+  "folder": {
+    "new-folder": "Nouveau dossier"
+  }
+}

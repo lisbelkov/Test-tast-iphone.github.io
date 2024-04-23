@@ -1,0 +1,251 @@
+.allContent {
+    overflow: hidden;
+    max-width: 430px;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../assets/image/bg.png);
+    background-size: 100%;
+}
+
+.allContentContainer {
+    width: 99%;
+}
+
+.headerIphoneEight {
+    display: none;
+}
+
+.header {
+    padding: 0px 15px 0px 41.84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    font-family: SF Pro Display;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17.9px;
+}
+
+.headerIcon {
+    display: flex;
+    gap: 4px;
+}
+
+.buttonCross {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.textContentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.textContent {
+    font-family: SF Pro Display;
+    font-weight: 860;
+    font-size: 2.51em;
+    font-size: calc(2.51rem + 1.23vw);
+    line-height: 46px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.styleCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.textCards {
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 0.6875em;
+    line-height: 13.13px;
+    color: #FFFFFF;
+    position: relative;
+    top: -45%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 1%;
+}
+
+.cards {
+    width: 104.4px;
+    height: 138.6px;
+}
+
+.groupButton {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.styleBestOffer {
+    position: relative;
+    top: 16px;
+    left: 193px;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 124px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15.23px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.styleTwoButtons {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    background-color: #22232D;
+    border-radius: 50px;
+    height: 56px;
+}
+
+.styleTwoButtons:hover {
+    background-color: #544F57;
+    border: 1px #FFFFFF;
+}
+
+.buttonTitleContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.styleTwoButtonsTitle {
+    font-family: SF Pro Display;
+    font-weight: 600;
+    font-size: 1.0000em;
+    line-height: 10.09px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+
+.styleTwoButtonsContent {
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.styleTwoButtonsPrise {
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.09px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.styleButtonContinue {
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: SF Pro Display;
+    font-weight: 590;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.styleFooter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.styleLinkFooter {
+    text-decoration: none;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 14.92px;
+    color: #FFFFFF80;
+}
+
+@media (max-width: 450px) {
+    .styleBestOffer {
+        position: relative;
+        top: 16px;
+        left: 220px;
+      
+    }
+}
+@media (max-width: 390px) {
+
+    .header {
+        display: none;
+    }
+
+    .headerIphoneEight {
+        padding: 3px 5px 0px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15px;
+    }
+
+    .headerIcon {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .styleBestOffer {
+        position: relative;
+        top: 16px;
+        left: 190px;
+      
+    }
+}
+
+@media (max-width: 375px) {
+    .styleBestOffer {
+        position: relative;
+        top: 16px;
+        left: 180px;
+      
+    }
+}
+@media (max-width: 330px) {
+    .styleBestOffer {
+        position: relative;
+        top: 16px;
+        left: 160px;
+      
+    }
+}
